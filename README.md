@@ -1,4 +1,4 @@
-<h1 align="center">Hi there! 👋 I am Gautham Mallipeddi</h1>
+<h1 align="center">Hi, I am Gautham Mallipeddi</h1>
 <ul>
 </ul>
 <li>💻 I'm interested in Web Development and Machine Learning.</li>

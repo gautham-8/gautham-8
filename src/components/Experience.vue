@@ -12,7 +12,7 @@ const experiences = [
             'This update allows users to create extensive schedules for solar and infrastructure projects.',
             'Designed to function like MS Projects and Oracle Primavera, with the added benefit of integrating data from other platform modules.',
         ],
-        skills: ['Vue.js', 'Vite', 'Pinia', 'Git', 'GitHub', 'npm', 'pnpm', 'Sass', 'CSS', 'HTML'],
+        skills: ['Vue.js', 'Vite', 'Pinia', 'Git', 'GitHub', 'npm', 'pnpm', 'Sass', 'CSS', 'HTML', 'VS Code'],
     },
     {
         title: 'Software Engineer Intern',
@@ -25,7 +25,7 @@ const experiences = [
             `Boosted application security by implementing ways to prevent <span class="font-semibold text-gray-200">XSS attacks</span> and <span class="font-semibold text-gray-200">CSV injections</span>.`,
             `Regularly updated frontend packages and dependencies, implementing migration changes as needed.`,
         ],
-        skills: ['Vue.js', 'Vite', 'Pinia', 'Git', 'GitHub', 'npm', 'pnpm', 'Sass', 'CSS', 'HTML'],
+        skills: ['Vue.js', 'Vite', 'Pinia', 'Git', 'GitHub', 'npm', 'pnpm', 'Sass', 'CSS', 'HTML', 'VS Code'],
     },
 ];
 </script>

@@ -18,18 +18,18 @@ import SkillIconsMaterialuiLight from '../assets/skill-icons-vue/SkillIconsMater
 import SkillIconsMongodb from '../assets/skill-icons-vue/SkillIconsMongodb.vue';
 import SkillIconsNodejsLight from '../assets/skill-icons-vue/SkillIconsNodejsLight.vue';
 import SkillIconsNpmDark from '../assets/skill-icons-vue/SkillIconsNpmDark.vue';
-import SkillIconsPiniaLight from '../assets/skill-icons-vue/SkillIconsPiniaLight.vue';
+import SkillIconsPiniaLight from '../assets/pinia.svg';
 import SkillIconsPnpmLight from '../assets/skill-icons-vue/SkillIconsPnpmLight.vue';
 import SkillIconsPostman from '../assets/skill-icons-vue/SkillIconsPostman.vue';
-import SkillIconsPythonLight from '../assets/skill-icons-vue/SkillIconsPythonLight.vue';
+import SkillIconsPythonLight from '../assets/python.svg';
 import SkillIconsPytorchLight from '../assets/skill-icons-vue/SkillIconsPytorchLight.vue';
 import SkillIconsReactLight from '../assets/skill-icons-vue/SkillIconsReactLight.vue';
 import SkillIconsSass from '../assets/skill-icons-vue/SkillIconsSass.vue';
 import SkillIconsScikitlearnLight from '../assets/skill-icons-vue/SkillIconsScikitlearnLight.vue';
-import SkillIconsTailwindcssLight from '../assets/skill-icons-vue/SkillIconsTailwindcssLight.vue';
+import SkillIconsTailwindcssLight from '../assets/tailwind.svg';
 import SkillIconsTensorflowLight from '../assets/skill-icons-vue/SkillIconsTensorflowLight.vue';
 import SkillIconsTypescript from '../assets/skill-icons-vue/SkillIconsTypescript.vue';
-import SkillIconsViteLight from '../assets/skill-icons-vue/SkillIconsViteLight.vue';
+import SkillIconsViteLight from '../assets/vite.svg';
 import SkillIconsVscodeLight from '../assets/skill-icons-vue/SkillIconsVscodeLight.vue';
 import SkillIconsVueLight from '../assets/skill-icons-vue/SkillIconsVuejsLight.vue';
 
@@ -62,18 +62,18 @@ const props = defineProps({
         <SkillIconsMongodb v-else-if="props.skill === 'MongoDB'" />
         <SkillIconsNodejsLight v-else-if="props.skill === 'Node.js'" />
         <SkillIconsNpmDark v-else-if="props.skill === 'npm'" />
-        <SkillIconsPiniaLight v-else-if="props.skill === 'Pinia'" />
+        <img v-else-if="props.skill === 'Pinia'" :src="SkillIconsPiniaLight" class="h-7" />
         <SkillIconsPnpmLight v-else-if="props.skill === 'pnpm'" />
         <SkillIconsPostman v-else-if="props.skill === 'Postman'" />
-        <SkillIconsPythonLight v-else-if="props.skill === 'Python'" />
+        <img v-else-if="props.skill === 'Python'" :src="SkillIconsPythonLight" class="h-7" />
         <SkillIconsPytorchLight v-else-if="props.skill === 'PyTorch'" />
         <SkillIconsReactLight v-else-if="props.skill === 'React.js'" />
         <SkillIconsSass v-else-if="props.skill === 'Sass'" />
         <SkillIconsScikitlearnLight v-else-if="props.skill === 'Scikit-learn'" />
-        <SkillIconsTailwindcssLight v-else-if="props.skill === 'Tailwind CSS'" />
+        <img v-else-if="props.skill === 'Tailwind CSS'" :src="SkillIconsTailwindcssLight" class="h-7" />
         <SkillIconsTensorflowLight v-else-if="props.skill === 'TensorFlow'" />
         <SkillIconsTypescript v-else-if="props.skill === 'TypeScript'" />
-        <SkillIconsViteLight v-else-if="props.skill === 'Vite'" />
+        <img v-else-if="props.skill === 'Vite'" :src="SkillIconsViteLight" class="h-7"  />
         <SkillIconsVscodeLight v-else-if="props.skill === 'VS Code'" />
         <SkillIconsVueLight v-else-if="props.skill === 'Vue.js'" />
         <span v-else>

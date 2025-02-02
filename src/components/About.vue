@@ -2,7 +2,7 @@
 </script>
 
 <template>
-    <div class="px-4">
+    <div id="about" class="px-4">
         <p class="md:hidden block text-3xl font-semibold mb-4">
             About
         </p>

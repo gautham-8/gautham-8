@@ -17,11 +17,19 @@ const EDUCATION = [
             'Machine Learning',
         ],
     },
-]
+];
+
+function onTEDxClick() {
+    document.getElementById('TEDx').scrollIntoView({ behavior: 'smooth', block: 'center' });
+}
+
+function onTuringHutClick() {
+    document.getElementById('turing-hut').scrollIntoView({ behavior: 'smooth', block: 'center' });
+}
 </script>
 
 <template>
-    <div class="mt-20">
+    <div id="education" class="mt-20">
         <p class="md:hidden block text-3xl font-semibold mb-4 px-4">
             Education
         </p>
@@ -43,8 +51,8 @@ const EDUCATION = [
                     </div>
                     <div class="flex items-center gap-2">
                         Activities:
-                        <img src="../assets/TEDx.png" class="w-8 h-8 rounded-lg" />
-                        <img src="../assets/TuringHut.png" class="w-8 h-8 rounded-lg" />
+                        <img src="../assets/TuringHut.png" class="w-8 h-8 rounded-lg cursor-pointer" @click="onTuringHutClick" />
+                        <img src="../assets/TEDx.png" class="w-8 h-8 rounded-lg cursor-pointer" @click="onTEDxClick" />
                     </div>
                 </div>
             </div>

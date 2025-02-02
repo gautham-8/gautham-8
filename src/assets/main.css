@@ -6,3 +6,7 @@ body {
     background-color: #051c36;
     @apply text-gray-300;
 }
+
+::selection {
+    @apply bg-teal-400 text-gray-900;
+}

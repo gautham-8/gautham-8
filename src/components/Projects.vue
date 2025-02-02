@@ -6,6 +6,7 @@ import SkillIcon from './SkillIcon.vue';
 
 const projects = [
     {
+        id: 'turing-hut',
         title: 'Problem setter and Peer-learning guide',
         organization: 'Turing Hut',
         organization_url: 'https://www.turinghut.org/',
@@ -18,6 +19,7 @@ const projects = [
         skills: ['React.js', 'Material UI', 'Git', 'GitHub'],
     },
     {
+        id: 'TEDx',
         title: 'Technical Member',
         organization: 'TEDxVNRVJIET',
         organization_url: 'https://www.tedxvnrvjiet.com',
@@ -30,6 +32,7 @@ const projects = [
         skills: ['React.js', 'Tailwind CSS', 'Sass', 'CSS', 'HTML', 'Git', 'GitHub'],
     },
     {
+        id: 'hospital-website',
         title: 'Hospital website - Managing appointments made easy!',
         // organization: 'Hospital Website',
         image_src: HospitalWebsite,
@@ -44,12 +47,14 @@ const projects = [
 </script>
 
 <template>
-    <div class="mt-20">
+    <div id="projects" class="mt-20">
         <p class="md:hidden block text-3xl font-semibold mb-4 px-4">
             Projects
         </p>
         <div
             v-for="project in projects"
+            :id="project.id"
+            :key="project.id"
             class="mb-8 md:mb-4"
         >
             <div class="w-full md:flex gap-4 rounded-lg px-4 py-2">

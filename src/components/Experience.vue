@@ -31,7 +31,7 @@ const experiences = [
 </script>
 
 <template>
-    <div class="mt-20">
+    <div id="work-experience" class="mt-20">
         <p class="md:hidden block text-3xl font-semibold mb-4 px-4">
             Work experience
         </p>

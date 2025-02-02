@@ -42,40 +42,42 @@ const props = defineProps({
 </script>
 
 <template>
-    <SkillIconsAnacondaLight v-if="props.skill === 'Anaconda'" />
-    <SkillIconsBootstrap v-else-if="props.skill === 'Bootstrap'" />
-    <SkillIconsC v-else-if="props.skill === 'C'" />
-    <SkillIconsCpp v-else-if="props.skill === 'C++'" />
-    <SkillIconsCss v-else-if="props.skill === 'CSS'" />
-    <SkillIconsEclipseLight v-else-if="props.skill === 'Eclipse'" />
-    <SkillIconsExpressjsLight v-else-if="props.skill === 'Express.js'" />
-    <SkillIconsFigmaLight v-else-if="props.skill === 'Figma'" />
-    <SkillIconsFlaskLight v-else-if="props.skill === 'Flask'" />
-    <SkillIconsGit v-else-if="props.skill === 'Git'" />
-    <SkillIconsGithubLight v-else-if="props.skill === 'GitHub'" />
-    <SkillIconsGitlabLight v-else-if="props.skill === 'GitLab'" />
-    <SkillIconsHtml v-else-if="props.skill === 'HTML'" />
-    <SkillIconsJavaLight v-else-if="props.skill === 'Java'" />
-    <SkillIconsJavascript v-else-if="props.skill === 'JavaScript'" />
-    <SkillIconsMaterialuiLight v-else-if="props.skill === 'Material UI'" />
-    <SkillIconsMongodb v-else-if="props.skill === 'MongoDB'" />
-    <SkillIconsNodejsLight v-else-if="props.skill === 'Node.js'" />
-    <SkillIconsNpmDark v-else-if="props.skill === 'npm'" />
-    <SkillIconsPiniaLight v-else-if="props.skill === 'Pinia'" />
-    <SkillIconsPnpmLight v-else-if="props.skill === 'pnpm'" />
-    <SkillIconsPostman v-else-if="props.skill === 'Postman'" />
-    <SkillIconsPythonLight v-else-if="props.skill === 'Python'" />
-    <SkillIconsPytorchLight v-else-if="props.skill === 'PyTorch'" />
-    <SkillIconsReactLight v-else-if="props.skill === 'React.js'" />
-    <SkillIconsSass v-else-if="props.skill === 'Sass'" />
-    <SkillIconsScikitlearnLight v-else-if="props.skill === 'Scikit-learn'" />
-    <SkillIconsTailwindcssLight v-else-if="props.skill === 'Tailwind CSS'" />
-    <SkillIconsTensorflowLight v-else-if="props.skill === 'TensorFlow'" />
-    <SkillIconsTypescript v-else-if="props.skill === 'TypeScript'" />
-    <SkillIconsViteLight v-else-if="props.skill === 'Vite'" />
-    <SkillIconsVscodeLight v-else-if="props.skill === 'VS Code'" />
-    <SkillIconsVueLight v-else-if="props.skill === 'Vue.js'" />
-    <div v-else>
-        {{ props.skill }}
-    </div>
+    <span v-tippy="{ content: props.skill, placement: 'top' }">
+        <SkillIconsAnacondaLight v-if="props.skill === 'Anaconda'" />
+        <SkillIconsBootstrap v-else-if="props.skill === 'Bootstrap'" />
+        <SkillIconsC v-else-if="props.skill === 'C'" />
+        <SkillIconsCpp v-else-if="props.skill === 'C++'" />
+        <SkillIconsCss v-else-if="props.skill === 'CSS'" />
+        <SkillIconsEclipseLight v-else-if="props.skill === 'Eclipse'" />
+        <SkillIconsExpressjsLight v-else-if="props.skill === 'Express.js'" />
+        <SkillIconsFigmaLight v-else-if="props.skill === 'Figma'" />
+        <SkillIconsFlaskLight v-else-if="props.skill === 'Flask'" />
+        <SkillIconsGit v-else-if="props.skill === 'Git'" />
+        <SkillIconsGithubLight v-else-if="props.skill === 'GitHub'" />
+        <SkillIconsGitlabLight v-else-if="props.skill === 'GitLab'" />
+        <SkillIconsHtml v-else-if="props.skill === 'HTML'" />
+        <SkillIconsJavaLight v-else-if="props.skill === 'Java'" />
+        <SkillIconsJavascript v-else-if="props.skill === 'JavaScript'" />
+        <SkillIconsMaterialuiLight v-else-if="props.skill === 'Material UI'" />
+        <SkillIconsMongodb v-else-if="props.skill === 'MongoDB'" />
+        <SkillIconsNodejsLight v-else-if="props.skill === 'Node.js'" />
+        <SkillIconsNpmDark v-else-if="props.skill === 'npm'" />
+        <SkillIconsPiniaLight v-else-if="props.skill === 'Pinia'" />
+        <SkillIconsPnpmLight v-else-if="props.skill === 'pnpm'" />
+        <SkillIconsPostman v-else-if="props.skill === 'Postman'" />
+        <SkillIconsPythonLight v-else-if="props.skill === 'Python'" />
+        <SkillIconsPytorchLight v-else-if="props.skill === 'PyTorch'" />
+        <SkillIconsReactLight v-else-if="props.skill === 'React.js'" />
+        <SkillIconsSass v-else-if="props.skill === 'Sass'" />
+        <SkillIconsScikitlearnLight v-else-if="props.skill === 'Scikit-learn'" />
+        <SkillIconsTailwindcssLight v-else-if="props.skill === 'Tailwind CSS'" />
+        <SkillIconsTensorflowLight v-else-if="props.skill === 'TensorFlow'" />
+        <SkillIconsTypescript v-else-if="props.skill === 'TypeScript'" />
+        <SkillIconsViteLight v-else-if="props.skill === 'Vite'" />
+        <SkillIconsVscodeLight v-else-if="props.skill === 'VS Code'" />
+        <SkillIconsVueLight v-else-if="props.skill === 'Vue.js'" />
+        <span v-else>
+            {{ props.skill }}
+        </span>
+    </span>
 </template>

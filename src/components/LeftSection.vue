@@ -25,7 +25,6 @@ function handleSectionClick(section){
         window.open('https://docs.google.com/document/d/1D9YIwWWVdWsGeWcl1L7n1oT225iZF7APGPB2yBC3F0E/edit?usp=sharing', '_blank');
     }
     else {
-        state.active_section = section;
         document.getElementById(section.replaceAll(' ', '-').toLowerCase()).scrollIntoView({ behavior: 'smooth', block: 'center' });
     }
 }

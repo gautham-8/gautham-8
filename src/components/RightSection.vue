@@ -2,6 +2,7 @@
 import About from './About.vue';
 import Experience from './Experience.vue';
 import Education from './Education.vue';
+import Projects from './Projects.vue';
 </script>
 
 <template>
@@ -9,5 +10,6 @@ import Education from './Education.vue';
         <About />
         <Experience />
         <Education />
+        <Projects />
     </div>
 </template>

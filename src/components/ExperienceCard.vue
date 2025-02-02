@@ -1,4 +1,6 @@
 <script setup>
+import SkillIcon from './SkillIcon.vue';
+
 const props = defineProps({
     experience: {
         type: Object,
@@ -20,21 +22,18 @@ const props = defineProps({
                 </a>
             </div>
 
-            <div v-for="point in props.experience.description" class="text-gray-300">
+            <div v-for="point in props.experience.description" class="text-gray-400">
                 <div class="my-1">
-                    • {{ point }}
+                    • <span v-html="point"/>
                 </div>
             </div>
 
-            <div class="flex items-center gap-3">
-                Skills:
-                <div class="flex gap-2 flex-wrap">
-                    <div
+            <div v-if="props.experience.skills?.length" class="flex items-center gap-3 mt-4">
+                <div class="flex items-center gap-2 flex-wrap">
+                    <SkillIcon
                         v-for="skill in props.experience.skills"
-                        class="bg-green-300 text-black rounded-full px-2 py-1 text-xs"
-                    >
-                        {{ skill }}
-                    </div>
+                        :skill="skill"
+                    />
                 </div>
             </div>
         </div>

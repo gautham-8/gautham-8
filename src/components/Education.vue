@@ -4,7 +4,7 @@ const EDUCATION = [
         title: 'B.Tech in Computer Science and Engineering',
         institute: 'VNR Vignana Jyothi Institute of Engineering and Technology',
         institute_url: 'https://vnrvjiet.ac.in/',
-        duration: '2020 - 2024',
+        duration: 'DEC 2020 - MAY 2024',
         grade: '8.96 CGPA',
         relevant_courses: [
             'Data Structures and Algorithms',

@@ -16,7 +16,7 @@ const active_section = computed(() => {
 </script>
 
 <template>
-    <div class="p-20">
+    <div class="md:p-20 p-12">
         <div class="text-4xl font-bold mb-2">
             Gautham Mallipeddi
         </div>

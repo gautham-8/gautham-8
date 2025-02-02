@@ -15,7 +15,7 @@ const projects = [
         description: [
             `I collaborated with my team to develop the webpage for Turing Hut's flagship coding contest, the Turing Cup. This effort set a record at the time, with over <span class="font-semibold text-gray-200">1,000 team registrations</span>, totaling more than 2,000 individual participants. As a problem setter, I have set problems for contests with global participation. I have also taught various competitive programming topics like bit manipulation, binary search in the peer learning sessions conducted by Turing Hut.`,
         ],
-        skills: ['React.js', 'Material UI', 'Git', 'GitHub', 'Data Structures and Algorithms', 'Problem-solving'],
+        skills: ['React.js', 'Material UI', 'Git', 'GitHub'],
     },
     {
         title: 'Technical Member',
@@ -47,13 +47,13 @@ const projects = [
     <div class="mt-20">
         <div
             v-for="project in projects"
-            class="my-4"
+            class="my-8 md:my-4"
         >
-            <div class="w-full flex gap-4 rounded-lg px-4 py-2">
-                <a :href="project.image_url" target="_blank" class="w-1/4 h-fit text-xs mt-0.5">
-                    <img :src="project.image_src" alt="TEDx Landing page" class="rounded" />
+            <div class="w-full md:flex gap-4 rounded-lg px-4 py-2">
+                <a :href="project.image_url" target="_blank" class="md:w-1/4 h-fit text-xs mt-0.5">
+                    <img :src="project.image_src" alt="TEDx Landing page" class="rounded w-2/3 md:w-full" />
                 </a>
-                <div class="w-3/4 text-sm">
+                <div class="md:w-3/4 text-sm mt-4 md:mt-0">
                     <div class="mb-2">
                         {{ project.title }}<template v-if="project.organization">,
                         </template>

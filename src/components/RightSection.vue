@@ -6,7 +6,7 @@ import Projects from './Projects.vue';
 </script>
 
 <template>
-    <div class="p-20">
+    <div class="md:p-20 p-12">
         <About />
         <Experience />
         <Education />

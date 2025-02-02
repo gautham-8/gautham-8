@@ -16,9 +16,13 @@ onMounted(() => {
 
 <template>
     <div class="blob"></div>
-    <div class="flex">
+    <div class="md:flex hidden">
         <LeftSection class="w-2/5 sticky top-0 h-[calc(100vh)]" />
         <RightSection class="w-3/5" />
+    </div>
+    <div class="md:hidden">
+        <LeftSection class="w-full" />
+        <RightSection class="w-full" />
     </div>
 </template>
 

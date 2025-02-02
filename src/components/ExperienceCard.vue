@@ -10,11 +10,11 @@ const props = defineProps({
 </script>
 
 <template>
-    <div class="w-full flex gap-4 rounded-lg px-4 py-2">
-        <div class="w-1/4 text-xs mt-0.5">
+    <div class="w-full md:flex gap-4 rounded-lg px-4 py-2">
+        <div class="md:w-1/4 text-xs mt-0.5">
             {{ props.experience.date }}
         </div>
-        <div class="w-3/4 text-sm">
+        <div class="md:w-3/4 text-sm">
             <div class="mb-4">
                 {{ props.experience.title }},
                 <a :href="props.experience.company_url" target="_blank" class="underline">

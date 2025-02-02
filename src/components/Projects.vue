@@ -45,9 +45,12 @@ const projects = [
 
 <template>
     <div class="mt-20">
+        <p class="md:hidden block text-3xl font-semibold mb-4 px-4">
+            Projects
+        </p>
         <div
             v-for="project in projects"
-            class="my-8 md:my-4"
+            class="mb-8 md:mb-4"
         >
             <div class="w-full md:flex gap-4 rounded-lg px-4 py-2">
                 <a :href="project.image_url" target="_blank" class="md:w-1/4 h-fit text-xs mt-0.5">

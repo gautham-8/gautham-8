@@ -26,7 +26,7 @@ const active_section = computed(() => {
         <div class="text-md text-gray-300">
             I develop full-stack applications and am currently exploring AI and ML technologies.
         </div>
-        <div class="my-28">
+        <div class="hidden md:block my-28">
             <div
                 v-for="section in SECTIONS"
                 class="my-2"

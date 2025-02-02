@@ -21,7 +21,10 @@ const EDUCATION = [
 </script>
 
 <template>
-    <div class="mt-10">
+    <div class="mt-20">
+        <p class="md:hidden block text-3xl font-semibold mb-4 px-4">
+            Education
+        </p>
         <div v-for="edu in EDUCATION">
             <div class="w-full md:flex gap-4 rounded-lg px-4 py-2">
                 <div class="md:w-1/4 text-xs mt-0.5">

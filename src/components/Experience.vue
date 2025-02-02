@@ -32,6 +32,9 @@ const experiences = [
 
 <template>
     <div class="mt-20">
+        <p class="md:hidden block text-3xl font-semibold mb-4 px-4">
+            Work experience
+        </p>
         <ExperienceCard
             v-for="experience in experiences"
             :experience="experience"

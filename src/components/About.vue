@@ -3,6 +3,9 @@
 
 <template>
     <div class="px-4">
+        <p class="md:hidden block text-3xl font-semibold mb-4">
+            About
+        </p>
         <p class="text-md">
             Hi everyone! I'm Gautham Mallipeddi, an Engineer who is currently working on developing front-end applications. I'm also actively exploring various AI/ML technologies and really interested at the role it can play in healthcare.
         </p>

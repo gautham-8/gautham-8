@@ -84,7 +84,7 @@ onBeforeUnmount(() => {
                 v-for="section in SECTIONS"
                 class="my-2 flex items-center cursor-pointer w-fit"
                 :class="{
-                    'text-green-300': section === state.active_section,
+                    'text-[#FFF7AE]': section === state.active_section,
                     'text-gray-300': section !== state.active_section,
                 }"
                 @click="handleSectionClick(section)"

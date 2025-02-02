@@ -8,5 +8,5 @@ body {
 }
 
 ::selection {
-    @apply bg-teal-400 text-gray-900;
+    @apply bg-[#FFF7AE] text-gray-900;
 }

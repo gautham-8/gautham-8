@@ -29,7 +29,7 @@ function onTuringHutClick() {
 </script>
 
 <template>
-    <div id="education" class="mt-20">
+    <div id="education" class="mt-20 animate-fade-in delay-3">
         <p class="md:hidden block text-3xl font-semibold mb-4 px-4">
             Education
         </p>

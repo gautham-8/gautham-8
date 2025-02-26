@@ -10,3 +10,37 @@ body {
 ::selection {
     @apply bg-[#FFF7AE] text-gray-900;
 }
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      filter: blur(10px);
+      transform: translateX(10px);
+    }
+    to {
+      opacity: 1;
+      filter: blur(0);
+      transform: translateX(0);
+    }
+  }
+
+.animate-fade-in {
+    animation: fadeIn 0.8s ease-out forwards;
+    opacity: 0;
+}
+  
+.delay-1 {
+    animation-delay: 0.1s;
+}
+
+.delay-2 {
+    animation-delay: 0.3s;
+}
+
+.delay-3 {
+    animation-delay: 0.4s;
+}
+
+.delay-4 {
+    animation-delay: 0.7s;
+}

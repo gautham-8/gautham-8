@@ -70,7 +70,7 @@ const projects = [
 </script>
 
 <template>
-    <div id="projects" class="mt-20">
+    <div id="projects" class="mt-20 animate-fade-in delay-3">
         <p class="md:hidden block text-3xl font-semibold mb-4 px-4">
             Projects
         </p>

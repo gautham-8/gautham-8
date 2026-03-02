@@ -5,6 +5,10 @@
 <li>👯 I’m looking to collaborate on any interesting project.</li>
 <li>📫 You can reach me at <a href="mailto:gautham.mallipeddi8@gmail.com">gautham.mallipeddi8@gmail.com</a></li>
 
+<div align="center">
+    <img src="https://raw.githubusercontent.com/gautham-8/gautham-8/output/github-contribution-grid-snake.svg" />
+</div>
+
 <!--
 **gautham-8/gautham-8** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 

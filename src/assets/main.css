@@ -8,7 +8,7 @@ body {
 }
 
 ::selection {
-    @apply bg-[#FFF7AE] text-gray-900;
+    @apply bg-[#1e6ea6] text-white;
 }
 
 @keyframes fadeIn {

@@ -1,5 +1,6 @@
 <script setup>
 import { reactive, onMounted, onBeforeUnmount } from 'vue';
+import CopyPageButton from './CopyPageButton.vue';
 
 const SECTIONS = [
     'ABOUT',
@@ -83,6 +84,9 @@ onBeforeUnmount(() => {
         </div>
         <div class="text-md text-gray-300 animate-fade-in delay-1">
             I specialize in full-stack development with a keen interest in artificial intelligence and machine learning technologies.
+        </div>
+        <div class="mt-4 animate-fade-in delay-1">
+            <CopyPageButton />
         </div>
         <div class="hidden md:block my-28 sections-font animate-fade-in delay-2">
             <div

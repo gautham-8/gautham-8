@@ -6,8 +6,8 @@
 }
 .tippy-box{
     position:relative;
-    background-color:#FFF7AE;
-    color:#051c36;
+    background-color:#1e6ea6;
+    color:white;
     border-radius:4px;
     font-size:14px;
     line-height:1.4;
@@ -59,7 +59,7 @@
 .tippy-arrow{
     width:16px;
     height:16px;
-    color:#FFF7AE;
+    color:#1e6ea6;
 }
 .tippy-arrow:before{
     content:"";

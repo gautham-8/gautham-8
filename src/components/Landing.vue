@@ -2,10 +2,17 @@
 import { onMounted, onUnmounted } from 'vue';
 import LeftSection from './LeftSection.vue';
 import RightSection from './RightSection.vue';
+import { useTheme } from '../composables/useTheme';
+
+const { theme } = useTheme();
 
 let canvas, ctx, particles = [], animFrame;
 
 function spawnParticle(x, y) {
+    const isLight = theme.value === 'light';
+    const lightness = isLight
+        ? 30 + Math.random() * 15
+        : 70 + Math.random() * 20;
     particles.push({
         x,
         y,
@@ -13,7 +20,7 @@ function spawnParticle(x, y) {
         alpha: 1,
         vx: (Math.random() - 0.5) * 0.8,
         vy: -(Math.random() * 1.2 + 0.4),
-        color: `hsl(${200 + Math.random() * 40}, 90%, ${70 + Math.random() * 20}%)`,
+        color: `hsl(${200 + Math.random() * 40}, 90%, ${lightness}%)`,
     });
 }
 

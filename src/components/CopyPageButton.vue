@@ -137,7 +137,7 @@ onBeforeUnmount(() => document.removeEventListener('mousedown', handleOutsideCli
             </button>
         </div>
 
-        <div v-if="open" class="absolute left-0 top-full mt-1 w-44 bg-[#0a2a4a] border border-gray-600 rounded-md shadow-lg z-50 overflow-hidden text-xs">
+        <div v-if="open" class="absolute left-0 top-full mt-1 w-44 bg-surface-alt border border-gray-600 rounded-md shadow-lg z-50 overflow-hidden text-xs">
             <button class="w-full text-left px-3 py-2 flex items-center gap-2 text-gray-300 hover:bg-white/5 transition-colors" @click="copyMarkdown">
                 <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
                 Copy Markdown

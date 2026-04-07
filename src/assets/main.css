@@ -2,33 +2,58 @@
 @tailwind components;
 @tailwind utilities;
 
+:root,
+:root.light {
+    --surface: #f5f1e8;
+    --surface-alt: #ebe5d4;
+    --accent: #b4881a;
+    --selection: #1e6ea6;
+    --gray-200: #1f2937;
+    --gray-300: #334155;
+    --gray-400: #475569;
+    --gray-600: #94a3b8;
+}
+
+:root.dark {
+    --surface: #051c36;
+    --surface-alt: #0a2a4a;
+    --accent: #FFF7AE;
+    --selection: #1e6ea6;
+    --gray-200: #e5e7eb;
+    --gray-300: #d1d5db;
+    --gray-400: #9ca3af;
+    --gray-600: #4b5563;
+}
+
 body {
-    background-color: #051c36;
-    @apply text-gray-300;
+    background-color: var(--surface);
+    color: var(--gray-300);
+    transition: background-color 0.2s ease, color 0.2s ease;
 }
 
 ::selection {
-    @apply bg-[#1e6ea6] text-white;
+    background-color: var(--selection);
+    color: #ffffff;
 }
 
 @keyframes fadeIn {
     from {
-      opacity: 0;
-      filter: blur(10px);
-      transform: translateX(10px);
+        opacity: 0;
+        filter: blur(10px);
+        transform: translateX(10px);
     }
     to {
-      opacity: 1;
-      filter: blur(0);
-      transform: translateX(0);
+        opacity: 1;
+        filter: blur(0);
+        transform: translateX(0);
     }
-  }
+}
 
 .animate-fade-in {
     animation: fadeIn 0.8s ease-out forwards;
     opacity: 0;
 }
-  
+
 .delay-1 {
     animation-delay: 0.1s;
 }

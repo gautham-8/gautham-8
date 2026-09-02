@@ -21,11 +21,13 @@ I specialize in full-stack development with a keen interest in artificial intell
 
 ## About
 
-Hey! I'm a Software Engineer at SenseHawk, where I develop performant, data-driven SaaS applications for the solar and infrastructure industries. I've worked on Business Intelligence dashboards with interactive charts that render and handle large datasets efficiently, and a web-based Project Management module (similar to P6 and MS Projects) that needed careful thought around UI performance and scalability.
+Hey! I'm a Computer Science Master's student at UMass Amherst and a former Software Engineer at SenseHawk, where I built performant, data-driven SaaS applications for the solar and infrastructure industries.
 
-During my undergrad, I had the opportunity to explore AI/ML through multiple projects and publications. My undergraduate major project introduced me to the role of machine learning in healthcare, particularly in developing explainable AI models for brain disease detection. This experience deepened my interest in how AI can support clinical decision-making, improve diagnostics, and ultimately make healthcare more accessible and effective.
+During my time at SenseHawk, I engineered high-impact modules including interactive Business Intelligence dashboards designed to efficiently handle and render large datasets and a Project Management platform (similar to Primavera P6 and MS Project) focused on frontend performance and data scalability.
 
-As I continue growing as an engineer, I aim to contribute to technology that doesn't just work well, but truly makes an impact.
+Parallel to full-stack engineering, I've actively explored AI/ML through research and publications. My undergraduate capstone focused on explainable AI (XAI) models for brain disease detection, sparking a deep interest in how machine learning can enhance clinical decision-making and make diagnostic healthcare more accessible.
+
+Currently, I'm deepening my foundation in Artificial Intelligence, Machine Learning and Neural Networks at UMass. I love building at the intersection of scalable web architecture and applied AI software that doesn't just work well, but truly makes an impact.
 
 ---
 

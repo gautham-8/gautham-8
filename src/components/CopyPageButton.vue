@@ -15,7 +15,7 @@ Software Engineer
 
 [LinkedIn](https://www.linkedin.com/in/gautham-mallipeddi/) | [GitHub](https://github.com/gautham-8) | [Resume](https://docs.google.com/document/d/1sCLoCYWIF9zWSyFOUx8RbHmUTHUe1sKCYuD_9M9fp8k/edit?usp=sharing)
 
-I specialize in full-stack development with a keen interest in artificial intelligence and machine learning technologies.
+I specialize in full-stack development, artificial intelligence and machine learning
 
 ---
 
@@ -28,6 +28,23 @@ During my time at SenseHawk, I engineered high-impact modules including interact
 Parallel to full-stack engineering, I've actively explored AI/ML through research and publications. My undergraduate capstone focused on explainable AI (XAI) models for brain disease detection, sparking a deep interest in how machine learning can enhance clinical decision-making and make diagnostic healthcare more accessible.
 
 Currently, I'm deepening my foundation in Artificial Intelligence, Machine Learning and Neural Networks at UMass. I love building at the intersection of scalable web architecture and applied AI software that doesn't just work well, but truly makes an impact.
+
+---
+
+
+## Education
+
+### M.S. in Computer Science
+**[University of Massachusetts Amherst](https://www.umass.edu/)**
+SEP 2026 – MAY 2028 | In progress
+
+---
+
+### B.Tech in Computer Science and Engineering
+**[VNR Vignana Jyothi Institute of Engineering and Technology](https://vnrvjiet.ac.in/)**
+DEC 2020 – MAY 2024 | 8.96 CGPA
+
+**Relevant Courses:** Data Structures and Algorithms, Object Oriented Programming through C++, Database Management Systems, Operating Systems, Computer Networks, Network Security, Artificial Intelligence, Machine Learning
 
 ---
 
@@ -54,22 +71,6 @@ Currently, I'm deepening my foundation in Artificial Intelligence, Machine Learn
 - Regularly updated frontend packages and dependencies, implementing migration changes as needed.
 
 **Skills:** Vue.js, Vite, Pinia, Git, GitHub, npm, pnpm, Sass, CSS, HTML, VS Code
-
----
-
-## Education
-
-### M.S. in Computer Science
-**[University of Massachusetts Amherst](https://www.umass.edu/)**
-SEP 2026 – MAY 2028 | In progress
-
----
-
-### B.Tech in Computer Science and Engineering
-**[VNR Vignana Jyothi Institute of Engineering and Technology](https://vnrvjiet.ac.in/)**
-DEC 2020 – MAY 2024 | 8.96 CGPA
-
-**Relevant Courses:** Data Structures and Algorithms, Object Oriented Programming through C++, Database Management Systems, Operating Systems, Computer Networks, Network Security, Artificial Intelligence, Machine Learning
 
 ---
 

@@ -10,8 +10,8 @@ import Footer from './Footer.vue';
     <div>
         <div class="md:p-20 p-8">
             <About />
-            <Experience />
             <Education />
+            <Experience />
             <Projects />
         </div>
         <Footer />

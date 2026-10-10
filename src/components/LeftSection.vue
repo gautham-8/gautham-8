@@ -16,6 +16,9 @@ const state = reactive({
 });
 
 function handleKeyPress(event){
+    if (event.metaKey || event.ctrlKey) {
+        return;
+    }
     if (event.key === 'R' || event.key === 'r') {
         window.open('https://docs.google.com/document/d/1sCLoCYWIF9zWSyFOUx8RbHmUTHUe1sKCYuD_9M9fp8k/edit?usp=sharing', '_blank');
     }
@@ -83,7 +86,7 @@ onBeforeUnmount(() => {
             </a>
         </div>
         <div class="text-md text-gray-300 animate-fade-in delay-1">
-            I specialize in full-stack development with a keen interest in artificial intelligence and machine learning technologies.
+            I specialize in full-stack development, artificial intelligence and machine learning
         </div>
         <div class="mt-4 animate-fade-in delay-1">
             <CopyPageButton />

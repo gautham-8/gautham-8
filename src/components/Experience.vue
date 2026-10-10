@@ -6,7 +6,7 @@ const experiences = [
         title: 'Software Engineer',
         company: 'SenseHawk',
         company_url: 'https://www.sensehawk.com',
-        date: 'JUN 2024 - PRESENT',
+        date: 'JUN 2024 - JUL 2026',
         description: [
             `Secured <span class="font-semibold text-gray-200">high-value contracts with major clients</span>, including a global energy leader, by developing the 'Business Intelligence' module in TaskMapper, which offers dashboards for complex data visualization.`,
             `<span class="font-semibold text-gray-200">Developed 80%+ of the UI for SenseHawk's first AI agent</span>, NaaviX, featuring data visualization and real-time message streaming to reduce manual analysis time from 3+ hours to minutes.`,

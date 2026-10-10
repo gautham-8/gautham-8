@@ -34,7 +34,7 @@ Currently, I'm deepening my foundation in Artificial Intelligence, Machine Learn
 ## Work Experience
 
 ### Software Engineer - [SenseHawk](https://www.sensehawk.com)
-**JUN 2024 - PRESENT**
+**JUN 2024 - JUL 2026**
 
 - Secured high-value contracts with major clients, including a global energy leader, by developing the 'Business Intelligence' module in TaskMapper, which offers dashboards for complex data visualization.
 - Developed 80%+ of the UI for SenseHawk's first AI agent, NaaviX, featuring data visualization and real-time message streaming to reduce manual analysis time from 3+ hours to minutes.
@@ -58,6 +58,12 @@ Currently, I'm deepening my foundation in Artificial Intelligence, Machine Learn
 ---
 
 ## Education
+
+### M.S. in Computer Science
+**[University of Massachusetts Amherst](https://www.umass.edu/)**
+SEP 2026 – MAY 2028 | In progress
+
+---
 
 ### B.Tech in Computer Science and Engineering
 **[VNR Vignana Jyothi Institute of Engineering and Technology](https://vnrvjiet.ac.in/)**

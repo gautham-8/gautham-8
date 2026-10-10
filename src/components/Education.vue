@@ -1,21 +1,20 @@
 <script setup>
 const EDUCATION = [
     {
+        title: 'M.S. in Computer Science',
+        institute: 'University of Massachusetts Amherst',
+        institute_url: 'https://www.umass.edu/',
+        duration: 'SEP 2026 - MAY 2028',
+        grade: 'In progress',
+        activities: [],
+    },
+    {
         title: 'B.Tech in Computer Science and Engineering',
         institute: 'VNR Vignana Jyothi Institute of Engineering and Technology',
         institute_url: 'https://vnrvjiet.ac.in/',
         duration: 'DEC 2020 - MAY 2024',
         grade: '8.96 CGPA',
-        relevant_courses: [
-            'Data Structures and Algorithms',
-            'Object Oriented Programming through C++',
-            'Database Management Systems',
-            'Operating Systems',
-            'Computer Networks',
-            'Network Security',
-            'Artificial Intelligence',
-            'Machine Learning',
-        ],
+        activities: ['turing-hut', 'TEDx'],
     },
 ];
 
@@ -49,10 +48,15 @@ function onTuringHutClick() {
                     <div class="mb-3">
                         Grade: {{ edu.grade }}
                     </div>
-                    <div class="flex items-center gap-2">
+                    <div v-if="edu.activities?.length" class="flex items-center gap-2">
                         Activities:
-                        <img src="../assets/TuringHut.png" class="w-8 h-8 rounded-lg cursor-pointer" @click="onTuringHutClick" />
-                        <img src="../assets/TEDx.png" class="w-8 h-8 rounded-lg cursor-pointer" @click="onTEDxClick" />
+                        <img
+                            v-for="activity in edu.activities"
+                            :key="activity"
+                            :src="activity === 'turing-hut' ? '../assets/TuringHut.png' : '../assets/TEDx.png'"
+                            class="w-8 h-8 rounded-lg cursor-pointer"
+                            @click="activity === 'turing-hut' ? onTuringHutClick() : onTEDxClick()"
+                        />
                     </div>
                 </div>
             </div>

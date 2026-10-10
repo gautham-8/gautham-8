@@ -1,4 +1,7 @@
 <script setup>
+import TuringHut from '../assets/TuringHut.png';
+import TEDx from '../assets/TEDx.png';
+
 const EDUCATION = [
     {
         title: 'M.S. in Computer Science',
@@ -17,6 +20,11 @@ const EDUCATION = [
         activities: ['turing-hut', 'TEDx'],
     },
 ];
+
+const ACTIVITY_IMAGES = {
+    'turing-hut': TuringHut,
+    TEDx,
+};
 
 function onTEDxClick() {
     document.getElementById('TEDx').scrollIntoView({ behavior: 'smooth', block: 'center' });
@@ -53,7 +61,7 @@ function onTuringHutClick() {
                         <img
                             v-for="activity in edu.activities"
                             :key="activity"
-                            :src="activity === 'turing-hut' ? '../assets/TuringHut.png' : '../assets/TEDx.png'"
+                            :src="ACTIVITY_IMAGES[activity]"
                             class="w-8 h-8 rounded-lg cursor-pointer"
                             @click="activity === 'turing-hut' ? onTuringHutClick() : onTEDxClick()"
                         />

@@ -17,13 +17,13 @@ const state = reactive({
 
 function handleKeyPress(event){
     if (event.key === 'R' || event.key === 'r') {
-        window.open('https://docs.google.com/document/d/1D9YIwWWVdWsGeWcl1L7n1oT225iZF7APGPB2yBC3F0E/edit?usp=sharing', '_blank');
+        window.open('https://docs.google.com/document/d/1sCLoCYWIF9zWSyFOUx8RbHmUTHUe1sKCYuD_9M9fp8k/edit?usp=sharing', '_blank');
     }
 }
 
 function handleSectionClick(section){
     if (section === 'RESUME') {
-        window.open('https://docs.google.com/document/d/1D9YIwWWVdWsGeWcl1L7n1oT225iZF7APGPB2yBC3F0E/edit?usp=sharing', '_blank');
+        window.open('https://docs.google.com/document/d/1sCLoCYWIF9zWSyFOUx8RbHmUTHUe1sKCYuD_9M9fp8k/edit?usp=sharing', '_blank');
     }
     else {
         document.getElementById(section.replaceAll(' ', '-').toLowerCase()).scrollIntoView({ behavior: 'smooth', block: 'center' });

@@ -13,7 +13,7 @@ function generateMarkdown() {
     return `# Gautham Mallipeddi
 Software Engineer
 
-[LinkedIn](https://www.linkedin.com/in/gautham-mallipeddi/) | [GitHub](https://github.com/gautham-8) | [Resume](https://docs.google.com/document/d/1D9YIwWWVdWsGeWcl1L7n1oT225iZF7APGPB2yBC3F0E/edit?usp=sharing)
+[LinkedIn](https://www.linkedin.com/in/gautham-mallipeddi/) | [GitHub](https://github.com/gautham-8) | [Resume](https://docs.google.com/document/d/1sCLoCYWIF9zWSyFOUx8RbHmUTHUe1sKCYuD_9M9fp8k/edit?usp=sharing)
 
 I specialize in full-stack development with a keen interest in artificial intelligence and machine learning technologies.
 
